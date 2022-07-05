@@ -19,7 +19,7 @@ void print_times_table(int n)
 			{
 				c = a * b; 
 				d = c / 100; 
-				e = (c /  10) % 10;
+				e = (c / 10) % 10;
 				f = (c % 100) % 10;
 				if (b == 0)
 				{
@@ -28,14 +28,14 @@ void print_times_table(int n)
 				else if (c < 10)
 				{
 					_putchar(' ');
-				       	_putchar(' ');
+					_putchar(' ');
 					_putchar('0' + f);
 				}
 				else if (c < 100)
 				{
 					_putchar(' ');
 					_putchar('0' + e);
-				       	_putchar('0' + f);
+					_putchar('0' + f);
 				}
 				else
 				{
@@ -46,11 +46,12 @@ void print_times_table(int n)
 				if (b < n)
 				{
 					_putchar(',');
-				       	_putchar(' ');
+					_putchar(' ');
 				}
 				else
-					_putchar('\n');
+				       	_putchar('\n');
 			}
 		}
 	}
 }
+
