@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char *sh = "alx";
+	char a = "_putchar";
 
-	while (*sh)
+	while (a<=8)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(a);
+		a++;
 	}
 	_putchar('\n');
 
