@@ -7,7 +7,7 @@ int main(void)
 	   if(c >='A' && c <='Z')
 		   return (1);
 	   else
-		   return (0);
+		   return (0); 
    }
    return (0);
 }
